@@ -3,6 +3,7 @@ import Profile from './HomeUpperSection/Profile'
 import Details from './HomeUpperSection/Details'
 import Chart from './HomeUpperSection/Chart'
 import Rating from './HomeUpperSection/Rating'
+import AnotherDEtails from './HomeLowerSection/AnotherDEtails'
 
 const HomeContent = () => {
   return (
@@ -21,6 +22,9 @@ const HomeContent = () => {
         <div className='row-span-2 col-span-2 mt-4'>
           <Rating />
         </div>
+      </div>
+      <div>
+        <AnotherDEtails />
       </div>
     </div>
   )
